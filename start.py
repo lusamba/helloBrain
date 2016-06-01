@@ -4,7 +4,7 @@ from pybrain.supervised.trainers import BackpropTrainer
 
 rete = buildNetwork(2, 8, 1)
 ds = SupervisedDataSet(2, 1)
-f=1;
+f = 1;
 
 ds.addSample((0, 0), (0,))
 ds.addSample((0, 1), (0,))
